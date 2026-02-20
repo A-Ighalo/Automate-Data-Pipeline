@@ -3,7 +3,7 @@ name: run AutomateRun.py
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/2 * * * *' # Every 2 minutes
+    - cron: '30 9 * * 4' # Every Thursday at 9:30 AM (UTC)
   
 
 jobs:
